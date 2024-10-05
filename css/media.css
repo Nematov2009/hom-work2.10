@@ -1,0 +1,155 @@
+@media (max-width: 990px) {
+  .nav__title {
+    display: block;
+  }
+  .nav__collection {
+    display: none;
+  }
+  .nav__wrapper {
+    display: none;
+  }
+  .hero__most {
+    max-width: 500px;
+    font-size: 30px;
+  }
+  .hero__img {
+    width: 500px;
+  }
+  .home__card {
+    width: calc(50% - 24px);
+    flex-direction: column;
+  }
+  .home {
+    flex-direction: row;
+  }
+  .linear__content h3 {
+    font-size: 20px;
+  }
+  .linear__content p {
+    max-width: 200px;
+  }
+  .linear {
+    gap: 20px;
+  }
+  .linear__card {
+    flex-direction: column;
+  }
+  .home__button {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 750px) {
+  .card__type {
+    padding: 20px;
+  }
+  .card__btn {
+    padding: 8px 5px;
+    right: 2px;
+  }
+  .hero {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 600px) {
+  .card__wrapper {
+    width: calc(100%);
+    flex-direction: column-reverse;
+  }
+  .card {
+    flex-direction: column;
+  }
+  .card__text,
+  .card__img {
+    width: 100%;
+  }
+  .linear__colorful-round {
+    margin-bottom: 30px;
+  }
+  .hero__most {
+    max-width: 600px;
+    font-size: 20px;
+  }
+  .hero__img {
+    width: 300px;
+  }
+  .input__type {
+    padding: 20px;
+  }
+  .hero__btn {
+    padding: 5px;
+  }
+  .menu__wrapper {
+    flex-direction: column;
+  }
+  .menu__card {
+    width: calc(100%);
+    margin: 0;
+    flex-direction: row;
+  }
+  .menu__card h2 {
+    font-size: 32px;
+  }
+  .menu__card p {
+    max-width: 500px;
+  }
+  .home__card {
+    width: calc(50% - 10px);
+    flex-direction: column;
+  }
+  .home__text {
+    margin-top: 50px;
+  }
+  .home {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .home__star h4 {
+    font-size: 15px;
+  }
+  .home__content strong {
+    font-size: 15px;
+  }
+  .home__cart {
+    width: 20px;
+    height: 20px;
+    font-size: 8px;
+  }
+  .home__heart {
+    width: 20px;
+    height: 20px;
+    font-size: 8px;
+  }
+}
+@media (max-width: 450px) {
+  .card__text h2 {
+    font-size: 25px;
+  }
+  .card__btn {
+    right: -90px;
+  }
+  .card__text p {
+    max-width: 800px;
+  }
+  .card__img {
+    width: 100%;
+  }
+  .linear__card {
+    max-width: calc(100%);
+    width: 100%;
+  }
+  .linear__card img {
+    width: 100%;
+  }
+  .linear__card h3 {
+    font-size: 40px;
+  }
+  .linear__card p {
+    font-size: 25px;
+    max-width: 500px;
+  }
+  .linear {
+    flex-direction: column;
+    align-items: center;
+  }
+}
